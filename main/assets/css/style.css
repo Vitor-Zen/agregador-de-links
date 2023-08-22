@@ -8,11 +8,11 @@
 }
 
 .perfil-icon {
-    display: block !important;
     height: 20rem;
-    width: 16rem;
-    border-radius: 1000%;
+    width: 20rem;
+    border-radius: 100%;
     margin-bottom: 20px;
+    display: block !important;
 }
 
 .nome {
