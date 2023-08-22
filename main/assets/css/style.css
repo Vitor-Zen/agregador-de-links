@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.perfil-icon {
+    display: block !important;
+    height: 20rem;
+    width: 16rem;
+    border-radius: 1000%;
+    margin-bottom: 20px;
+}
+
+.nome {
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    width: 23.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    gap: 10%;
+}
+
+.botao-personalizado {
+    margin-top: 0.625rem;
+    height: 2rem;
+    padding: 0 0.5rem 0 0.5rem !important;
+}
+
+.link {
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    display: flex;
+    margin-top: 1.5rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    gap: 3.5rem;
+    padding-left: 5rem;
+}
+
+.media-btn:hover {
+    -webkit-box-shadow: 0px 0px 111px -11px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 111px -11px rgba(255,255,255,1);
+    box-shadow: 0px 0px 111px -11px rgba(255,255,255,1);
+}
+
+.img-padrao {
+    width: 36px;
+    height: 36px;
+}
+
+
+@media (min-width: 320px) and (max-width:1024px){
+    
+    .link {
+        width: 80%;
+    }
+
+    .distancia-git {
+        margin-bottom: 1.5rem;
+    }
+}
