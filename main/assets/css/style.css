@@ -8,6 +8,7 @@
 }
 
 .perfil-icon {
+    object-fit: cover;
     height: 20rem;
     width: 20rem;
     border-radius: 100%;
